@@ -49,8 +49,8 @@
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
+    
 }
-
 .btn-square {
     width: 38px;
     height: 38px;
@@ -79,7 +79,7 @@
 
 /*** Navbar ***/
 .navbar.fixed-top {
-    display: none;
+    display: flex;
     transition: .5s;
 }
 
@@ -427,4 +427,7 @@
 
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
+}
+.nav-item{
+    margin: 0 2em;
 }
