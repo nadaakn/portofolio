@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6244C5;
+    --primary: #FFC0D9;
     --secondary: #FFC448;
-    --light: #FAFAFB;
+    --light: #FFFFFF;
     --dark: #12141D;
 }
 
@@ -93,7 +93,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--light);
 }
 
 @media (max-width: 991.98px) {
@@ -268,8 +268,8 @@
 
 #portfolio-flters li:hover,
 #portfolio-flters li.active {
-    color: var(--primary);
-    border-color: var(--primary);
+    color: var(--dark);
+    border-color: var(--dark);
 }
 
 .portfolio-img {
@@ -282,7 +282,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(98, 68, 197, .9);
+    background: rgba(255, 229, 229, 0.8);
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -429,5 +429,19 @@
     background: var(--primary);
 }
 .nav-item{
-    margin: 0 2em;
+    margin: 0 1.5em;
+}
+.bg-primary{
+    background-color: #FFC0D9;
+}
+.rounded-background-bottom {
+    background-color: #FFC0D9;
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
+    margin-top: -100px;
+}
+.rounded-background-work {
+    background-color: #FFC0D9;
+    /* border-radius: 100% 0 0 0 / 47% 50% 0 0;  */
+    padding: 20px;
 }
